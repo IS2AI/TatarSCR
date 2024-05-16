@@ -4,7 +4,7 @@
 The dataset covers 35 commands used in robotics, IoT, and smart systems. In total, the dataset contains 3,547 one-second utterances from 153 people. The dataset can be downloaded from [Google Drive](https://drive.google.com/file/d/14jw3FeLCUSxt-lCZAHmYgZGZ1stVTRok/view?usp=sharing).
 
 ### Data Augmentation
-To increase the dataset size, use the ```data_augmentation.ipynb``` notebook. However, first you need to download the [ESC-50: Dataset for Environmental Sound Classification](https://github.com/karolpiczak/ESC-50) dataset.
+To preprocess and augment the dataset, you can use the ```data_preprocessing_augmentation.ipynb``` notebook. However, first you need to download the [ESC-50: Dataset for Environmental Sound Classification](https://github.com/karolpiczak/ESC-50) dataset.
 
 ### Model Training, Testing, and Optimization
 In this project, we used [Keyword-MLP](https://github.com/AI-Research-BD/Keyword-MLP) model. We sincerely thank the authors for open sourcing their code. 
