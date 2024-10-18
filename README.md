@@ -1,4 +1,6 @@
 ## An Open-Source Tatar Speech Commands Dataset
+### Paper
+[An Open-Source Tatar Speech Commands Dataset for IoT and Robotics Applications](https://www.techrxiv.org/users/682600/articles/1231801-an-open-source-tatar-speech-commands-dataset-for-iot-and-robotics-applications)
 
 ### Dataset 
 The dataset covers 35 commands used in robotics, IoT, and smart systems. In total, the dataset contains 3,547 one-second utterances from 153 people. The dataset can be downloaded from [Google Drive](https://drive.google.com/file/d/14jw3FeLCUSxt-lCZAHmYgZGZ1stVTRok/view?usp=sharing).
@@ -60,4 +62,9 @@ python3 onnx_inference.py --onnx_model checkpoints/best.onnx \
                           --conf configs/kwmlp_tscd.yaml \
                           --lmap label_map.json \
                           --inp <path to audio.wav / path to audio folder>
+```
+### In case of using our dataset/model please cite our work
+```
+Askat Kuzdeuov, Rinat Gilmullin, Bulat Khakimov, and Huseyin Atakan Varol. An Open-Source Tatar Speech Commands Dataset for IoT and Robotics Applications. TechRxiv. October 18, 2024,
+DOI: 10.36227/techrxiv.172926779.98914732/v1.
 ```
