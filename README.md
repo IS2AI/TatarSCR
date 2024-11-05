@@ -3,7 +3,7 @@
 [An Open-Source Tatar Speech Commands Dataset for IoT and Robotics Applications](https://www.techrxiv.org/users/682600/articles/1231801-an-open-source-tatar-speech-commands-dataset-for-iot-and-robotics-applications)
 
 ### Dataset 
-The dataset covers 35 commands used in robotics, IoT, and smart systems. In total, the dataset contains 3,547 one-second utterances from 153 people. The dataset can be downloaded from [Google Drive](https://drive.google.com/file/d/14jw3FeLCUSxt-lCZAHmYgZGZ1stVTRok/view?usp=sharing).
+The dataset covers 35 commands used in robotics, IoT, and smart systems. In total, the dataset contains 3,547 one-second utterances from 153 people. The dataset can be downloaded from [Google Drive](https://drive.google.com/file/d/1CBmVeAYgNrkNKhL1wtG7KUKuLJ9hOfHL/view?usp=sharing).
 
 ### Data Augmentation
 To preprocess and augment the dataset, you can use the ```data_preprocessing_augmentation.ipynb``` notebook. However, first you need to download the [ESC-50: Dataset for Environmental Sound Classification](https://github.com/karolpiczak/ESC-50) dataset.
