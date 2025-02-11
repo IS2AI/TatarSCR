@@ -4,6 +4,7 @@
 
 ### Dataset 
 The dataset covers 35 commands used in robotics, IoT, and smart systems. In total, the dataset contains 3,547 one-second utterances from 153 people. The dataset can be downloaded from [Google Drive](https://drive.google.com/file/d/1CBmVeAYgNrkNKhL1wtG7KUKuLJ9hOfHL/view?usp=sharing).
+<img src="https://github.com/IS2AI/TatarSCR/blob/main/commands.png?raw=true">
 
 ### Data Augmentation
 To preprocess and augment the dataset, you can use the ```data_preprocessing_augmentation.ipynb``` notebook. However, first you need to download the [ESC-50: Dataset for Environmental Sound Classification](https://github.com/karolpiczak/ESC-50) dataset.
